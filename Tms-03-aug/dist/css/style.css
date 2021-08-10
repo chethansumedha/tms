@@ -311,6 +311,19 @@ body {
     margin-bottom: -8px;
     border: none;
   }
+  .prodesc .image-upload-wrap{
+    width: 82%;
+    padding: 52px 0px;
+  }
+  .editor .note-toolbar{
+    display: none;
+  }
+  .prodesc .google{
+    width: 82%;
+  }
+  .editor .note-editor.note-frame, .editor .note-editor.note-airframe{
+    background: #F8F8F8 !important;
+  }
   .prodesc .note-editor.note-frame, .prodesc .note-editor.note-airframe {
     border: 1px solid rgb(185, 185, 185 , 0.5) !important;
     border-radius: 4px !important;
@@ -591,7 +604,7 @@ input.lochsr1:-webkit-autofill:active {
     /* -webkit-box-shadow: 0 0 0px 1000px #151718 inset; */
     transition: background-color 5000s ease-in-out 0s;
 }
-.offertable .btn-add{
+.offercreate .btn-add{
   float: none !important;
   padding: 8px 15px !important;
 }
@@ -758,8 +771,14 @@ margin-top: 40px;
 .dis{
     margin-bottom: 35px;
 }
+.stimg{
+  margin-top: 200px;
+}
 .eventvideo{
   margin-top: 480px;
+}
+.galvideo{
+  margin-top: 450px;
 }
 .conback h5{
     color: #000000;
